@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -28,10 +29,18 @@ body {
     margin: auto;;
 }
 
+button {
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+
 .section-button {
     padding: 25px 0px 20px 40px; 
     background-color: white;
-    border-radius: 15px 0px; 
+    border-radius: 15px 15px 0px 0px ; 
+    margin-bottom: 10px;
 }
 
 .add-button-s {
@@ -52,3 +61,54 @@ body {
 ol {
     list-style-type: none;
 }
+
+li {
+    padding: 8px;
+}
+
+.ceck-cross {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 20px;
+}
+
+.check {
+    border-radius: 50%;
+    color: green;
+    border: 2px solid green;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.cross {
+    color: red;
+    border: 2px solid red;
+}
+
+.editorial {
+    background-color: rgb(40, 138, 204);
+}
+
+.qgoal {
+    background-color: rgb(121, 60, 121);
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: plum;
+}
+
+.Sales {
+    background-color: greenyellow;
+}
+
+.recluiting {
+    background-color: rgb(108, 133, 72);
+}
+
