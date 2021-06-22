@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightgrey;
+}
+
 .header {
-    padding: 20px 0px 0px 20px ;
+    padding: 20px;
     background-color: white;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -16,4 +21,30 @@
 .title {
     display: inline-block;
     vertical-align: middle;
+}
+
+.main {
+    max-width: 60%;
+    margin: auto;;
+}
+
+.section-button {
+    padding: 25px 0px 20px 40px; 
+    background-color: white;
+    border-radius: 15px 0px; 
+}
+
+.add-button-s {
+    padding: 10px 20px;
+    vertical-align: middle;
+    border-radius: 4px;
+    background-color: white;
+    border: 2px solid grey;
+    color: grey;
+}
+
+.add-button-f {
+    padding: 10px 20px;   
+    vertical-align: middle;
+    border-radius: 4px;
 }
