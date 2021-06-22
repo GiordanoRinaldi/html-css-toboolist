@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    padding: 20px 0px 0px 20px ;
+    background-color: white;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+}
