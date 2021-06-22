@@ -48,3 +48,7 @@ body {
     vertical-align: middle;
     border-radius: 4px;
 }
+
+ol {
+    list-style-type: none;
+}
